@@ -1,0 +1,17 @@
+﻿<prism:PrismApplication
+    x:Class="APalavraDeDeus.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:prism="using:Prism.Windows"
+    RequestedTheme="Light">
+
+    <prism:PrismApplication.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\SpinkitResourceDictionary.xaml" />
+                <ResourceDictionary Source="Resources\UniversalResourceDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+
+</prism:PrismApplication>
